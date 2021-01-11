@@ -1,0 +1,33 @@
+{
+  "name": "how-to-call-api-in-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-native-https.js",
+  "scripts": {
+    "call:1": "node ./src/01-native-https.js",
+    "call:2": "node ./src/02-node-fetch.js",
+    "call:3": "node ./src/03-axios.js",
+    "call:4": "node ./src/04-superagent.js",
+    "call:5": "node ./src/05-got.js",
+    "call:6": "node ./src/06-exec-sync.js",
+    "call:7": "node ./src/07-shell.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazipan/how-to-call-api-in-nodejs.git"
+  },
+  "author": "Irfan Maulana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mazipan/how-to-call-api-in-nodejs/issues"
+  },
+  "homepage": "https://github.com/mazipan/how-to-call-api-in-nodejs#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "got": "^11.8.1",
+    "node-fetch": "^2.6.1",
+    "shelljs": "^0.8.4",
+    "superagent": "^6.1.0"
+  }
+}
